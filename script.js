@@ -39,7 +39,7 @@ function buscarHorario() {
             document.getElementById("horario").value = horarioBus;
             console.log(horarioBus);
             break;
-        } 
+        }
         else {
             let minutosProximoOnibus = horarios[0];
             let horas = Math.floor(minutosProximoOnibus / 60);
